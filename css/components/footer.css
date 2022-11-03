@@ -1,0 +1,31 @@
+
+footer {
+  background-color: #CE8147;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon {
+  margin: 12px;
+}
+
+.fa-brands {
+  color: #561D25;
+}
+
+footer > p {
+  text-align: center;
+  color: #561D25;
+}

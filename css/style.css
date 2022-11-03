@@ -1,0 +1,51 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Archivo Black', sans-serif;
+font-family: 'Inter', sans-serif; */
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Stylesheets */
+@import url('./components/banner.css');
+@import url('./components/footer.css');
+@import url('./components/card.css');
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+h4 {
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.spacer {
+  height: 50px;
+}
